@@ -5,20 +5,11 @@ const WasmPackPlugin = require("@wasm-tool/wasm-pack-plugin");
 module.exports = {
   entry: 
   {
-    main : "./web/main.ts",
+    main : "./web/main.js",
   },
   output: {
     path: path.join(__dirname, 'dist'),
     filename: '[name].js',
-  },
-  module: {
-    rules: [
-      {
-        test: /\.tsx?$/,
-        use: 'ts-loader',
-        exclude: /node_modules/,
-      },
-    ]
   },
   mode: "development",
   plugins: [
