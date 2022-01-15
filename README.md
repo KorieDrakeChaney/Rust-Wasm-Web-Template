@@ -9,5 +9,5 @@ Have wasm-pack
 ### Simple
 
 ```bash
-  wasm-pack new [name-of-your-choice] --template https://github.com/KorieDrakeChaney/Rust-Wasm-Web-Template.git
+  git clone --template https://github.com/KorieDrakeChaney/Rust-Wasm-Web-Template.git
 ```
