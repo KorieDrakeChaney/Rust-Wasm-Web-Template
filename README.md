@@ -1,6 +1,6 @@
 
 ## Prerequisites
-Have wasm-pack
+Have wasm-pack & Rust
 * [Rust](https://www.rust-lang.org/tools/install)
 * [WasmPack](https://rustwasm.github.io/wasm-pack/installer/)
 
