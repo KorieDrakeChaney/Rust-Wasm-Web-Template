@@ -10,5 +10,5 @@ Have wasm-pack & Rust
 ### Simple
 
 ```bash
-  git clone --template https://github.com/KorieDrakeChaney/Rust-Wasm-Web-Template.git
+  git clone https://github.com/KorieDrakeChaney/Rust-Wasm-Web-Template.git
 ```
